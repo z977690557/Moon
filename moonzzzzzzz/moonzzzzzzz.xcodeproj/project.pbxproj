@@ -14,6 +14,7 @@
 		C29ADC8E1B0EBD2E00A2A4D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29ADC8D1B0EBD2E00A2A4D1 /* Images.xcassets */; };
 		C29ADC911B0EBD2E00A2A4D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C29ADC8F1B0EBD2E00A2A4D1 /* LaunchScreen.xib */; };
 		C29ADC9D1B0EBD2F00A2A4D1 /* moonzzzzzzzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C29ADC9C1B0EBD2F00A2A4D1 /* moonzzzzzzzTests.m */; };
+		C29ADCA81B0EBF4D00A2A4D1 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29ADCA71B0EBF4D00A2A4D1 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C29ADC961B0EBD2F00A2A4D1 /* moonzzzzzzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moonzzzzzzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29ADC9B1B0EBD2F00A2A4D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C29ADC9C1B0EBD2F00A2A4D1 /* moonzzzzzzzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = moonzzzzzzzTests.m; sourceTree = "<group>"; };
+		C29ADCA61B0EBF4D00A2A4D1 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		C29ADCA71B0EBF4D00A2A4D1 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				C29ADC851B0EBD2E00A2A4D1 /* AppDelegate.m */,
 				C29ADC871B0EBD2E00A2A4D1 /* ViewController.h */,
 				C29ADC881B0EBD2E00A2A4D1 /* ViewController.m */,
+				C29ADCA61B0EBF4D00A2A4D1 /* TableViewController.h */,
+				C29ADCA71B0EBF4D00A2A4D1 /* TableViewController.m */,
 				C29ADC8A1B0EBD2E00A2A4D1 /* Main.storyboard */,
 				C29ADC8D1B0EBD2E00A2A4D1 /* Images.xcassets */,
 				C29ADC8F1B0EBD2E00A2A4D1 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				C29ADC891B0EBD2E00A2A4D1 /* ViewController.m in Sources */,
 				C29ADC861B0EBD2E00A2A4D1 /* AppDelegate.m in Sources */,
 				C29ADC831B0EBD2E00A2A4D1 /* main.m in Sources */,
+				C29ADCA81B0EBF4D00A2A4D1 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = moonzzzzzzz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = moonzzzzzzz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +422,7 @@
 				C29ADCA21B0EBD2F00A2A4D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C29ADCA31B0EBD2F00A2A4D1 /* Build configuration list for PBXNativeTarget "moonzzzzzzzTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +431,7 @@
 				C29ADCA51B0EBD2F00A2A4D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
